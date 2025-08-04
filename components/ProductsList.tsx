@@ -80,7 +80,7 @@ export default function ProductsList({
       
       <TextInput
         style={styles.searchBar}
-        placeholder="Search products on Lazada..."
+        placeholder="Search products on Shop..."
         placeholderTextColor="#999"
         value={searchQuery}
         onChangeText={setSearchQuery}
@@ -132,6 +132,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderRadius: 25,
     paddingHorizontal: 20,
+    paddingVertical: 10,
     margin: 16,
     fontSize: 16,
     elevation: 3,
